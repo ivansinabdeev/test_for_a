@@ -1,0 +1,14 @@
+.background {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.cup {
+  width: 682px;
+  height: 1180px;
+
+  background-image: url(../../images/Cup-up.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
