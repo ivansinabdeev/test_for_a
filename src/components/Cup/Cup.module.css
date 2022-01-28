@@ -1,9 +1,10 @@
 .background {
   display: flex;
   justify-content: center;
+  width: 100%;
   padding-top: 70px;
   overflow: hidden;
-  animation: back 1000ms linear;
+  animation: back 500ms linear;
   /* transition: background 1000ms cubic-bezier(0.4, 0, 0.2, 1); */
   animation-fill-mode: forwards;
 }
@@ -23,14 +24,17 @@
     );
   }
 }
+/* .wigth {
+  width: 100%;
+} */
 .cup {
-  animation: upCup 1000ms linear;
+  animation: upCup 2500ms linear;
   /* animation-delay: 2000ms; */
 
-  width: 682px;
+  width: 1000px;
   height: 1180px;
 
-  background-image: url(../../images/Cup-up.png);
+  background-image: url(../../images/confetti.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -47,9 +51,11 @@
 .confetti {
   animation: confet 1000ms linear;
 
-  width: 100%;
+  max-width: 100%;
+  width: 682px;
+  height: 1180px;
 
-  background-image: url(../../images/confetti.png);
+  background-image: url(../../images/Cup-up.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
