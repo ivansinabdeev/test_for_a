@@ -1,3 +1,4 @@
+import Snow from "./confetti";
 import s from "./Cup.module.css";
 
 function Cup() {
@@ -8,6 +9,7 @@ function Cup() {
           <div className={s.cup}></div>
         </div>
       </div>
+      <Snow />
     </>
   );
 }

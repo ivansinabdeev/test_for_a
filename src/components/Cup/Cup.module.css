@@ -27,18 +27,18 @@
 /* .wigth {
   width: 100%;
 } */
-.cup {
-  animation: upCup 2500ms linear;
-  /* animation-delay: 2000ms; */
+/* .cup { */
+/* animation: upCup 2500ms linear; */
+/* animation-delay: 2000ms; */
 
-  width: 1000px;
+/* width: 1000px;
   height: 1180px;
 
   background-image: url(../../images/confetti.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; */
+/* } */
 
 @keyframes upCup {
   0% {

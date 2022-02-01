@@ -35,14 +35,10 @@ img {
 }
 
 .App {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
+  /* backgrounrgb(49, 40, 21)11a; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
-  background-image: url("./images/Desktop.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
